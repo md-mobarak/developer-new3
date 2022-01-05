@@ -1,1 +1,76 @@
-font-family: 'Poppins', sans-serif;
+body{font-family: 'Poppins', sans-serif;
+    margin: 0%;
+ }
+ .display-flex{
+    display: flex;
+ }
+ section{
+     padding-bottom: 150px;
+ }
+ 
+ #section1{
+     background-image: url(images/top-banner.png);
+     background-repeat: no-repeat;
+     background-position:left;
+     
+ }
+ #section2-div2{
+     background-image: url(images/my-bg.png);
+     background-position: right;
+     background-repeat: no-repeat;
+ }
+ #section2{background-image: url(images/dream-bg.png);
+            background-position: right;
+            background-repeat: no-repeat;
+
+ }
+ .brown{
+     color: brown;
+ }
+ h1{
+     font-size: 50px;
+     
+ }
+ h2{
+     color: royalblue;
+     
+ }
+ .half-width{
+     width: 50%;
+     padding-left: 40px;
+ }
+ .half-width img{
+     width: 80%;
+     
+ }
+ .link-button{
+        text-decoration: none;
+        background-image: linear-gradient(red, blue);
+        color: antiquewhite;
+        padding: 10px;
+         border-radius: 5px;      
+ }
+ #display-flex{
+     display: flex;
+ }
+
+ footer{
+     text-align: center;
+ }
+#box-border{border-left: 10px solid;
+    border-image-slice: 1px;
+    border-image: linear-gradient(blue,green);
+    box-shadow: 10px 10px 8px 9px blueviolet;
+    padding: 20px 30px;
+    margin: 15px;
+}
+#box-border2{
+
+    border-left: 10px solid;
+    border-image-slice: 1px;
+    border-image: linear-gradient(blue,yellow);
+    box-shadow: 10px 10px 8px 9px blueviolet;
+    padding: 20px 30px 8px 9px;
+    border-radius: 8px;
+    margin:15px;
+}
